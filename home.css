@@ -1,0 +1,191 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: "MS PMincho", "Hiragino Mincho Pro", serif; */
+  text-align: center;
+  color: rgb(40, 36, 31);
+  background-color: rgb(249, 244, 222);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(249, 244, 222);
+}
+
+header h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+  text-align: left;
+  padding-left: 45px;
+}
+
+header p.icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+header p.icon a:hover {
+  opacity: 0.7;
+}
+
+header nav {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(40, 36, 31);
+}
+
+header nav li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header nav li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+/* header nav li.activ {
+  color: #000;
+  font-weight: bold;
+} */
+
+main p.profile1 {
+  font-size: 23px;
+  padding-top: 150px;
+}
+
+main p.profile2 {
+  font-size: 23px;
+  padding-top: 15px;
+}
+
+.link1 {
+  background-image: url(../img/img_desk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 1200px;
+  height: 450px;
+  padding-top: 150px;
+}
+
+main p.link1 a {
+  background-color: rgba(249, 244, 222);
+  padding: 55px 100px;
+  margin-bottom: 200px;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  background-image: url(../img/ya.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: right 20px center;
+}
+
+main p.link1 a:hover {
+  opacity: 0.7;
+}
+
+main p .link1 {
+  margin-bottom: 100px;
+}
+
+.link2 {
+  background-image: url(../img/img_people.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 1200px;
+  height: 450px;
+  padding-top: 150px;
+}
+
+main p.link2 a {
+  background-color: rgba(249, 244, 222);
+  padding: 55px 100px;
+  margin-bottom: 200px;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  background-image: url(../img/ya.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: right 20px center;
+}
+
+main p.link2 a:hover {
+  opacity: 0.7;
+}
+
+main p.link2 {
+  margin-top: 100px;
+}
+
+.link3 {
+  background-image: url(../img/bigdoodle2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 1200px;
+  height: 450px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+main p.link3 a {
+  background-color: rgba(249, 244, 222);
+  padding: 55px 90px;
+  margin-bottom: 200px;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  background-image: url(../img/ya.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: right 20px center;
+}
+
+main p.link3 a:hover {
+  opacity: 0.7;
+}
+
+main p.link3 {
+  margin-top: 100px;
+}
+
+.link123 {
+  text-align: left;
+  margin-top: 300px;
+  margin-left: 250px;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(40, 36, 31);
+  width: auto;
+  height: 50px;
+  margin-top: 100px;
+}
+
+footer p {
+  color: #fff;
+  padding-top: 15px;
+}
