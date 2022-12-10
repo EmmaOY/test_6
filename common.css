@@ -10,6 +10,11 @@ body {
   src: url(https://emmaoy.github.io/);
 } */
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
   background-color: rgb(249, 244, 222);
 }
