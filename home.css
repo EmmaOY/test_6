@@ -88,7 +88,7 @@ main p.link1 a {
   text-align: center;
   width: 300px;
   height: 150px;
-  background-image: url(../img/ya.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/ya.png?raw=true");
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: right 20px center;
@@ -122,7 +122,7 @@ main p.link2 a {
   text-align: center;
   width: 300px;
   height: 150px;
-  background-image: url(../img/ya.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/ya.png?raw=true");
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: right 20px center;
@@ -157,7 +157,7 @@ main p.link3 a {
   text-align: center;
   width: 300px;
   height: 150px;
-  background-image: url(../img/ya.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/ya.png?raw=true");
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: right 20px center;
