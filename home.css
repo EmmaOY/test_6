@@ -69,7 +69,7 @@ main p.profile2 {
 }
 
 .link1 {
-  background-image: url(../img/img_desk.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/img_desk.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -103,7 +103,7 @@ main p .link1 {
 }
 
 .link2 {
-  background-image: url(../img/img_people.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/img_people.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -137,7 +137,7 @@ main p.link2 {
 }
 
 .link3 {
-  background-image: url(../img/bigdoodle2.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/bigdoodle2.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
