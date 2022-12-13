@@ -74,6 +74,7 @@ main p.profile2 {
   width: 1200px;
   height: 450px;
   padding-top: 150px;
+  text-align: center;
 }
 
 main p.link1 a {
@@ -96,9 +97,9 @@ main p.link1 a:hover {
   opacity: 0.7;
 }
 
-main p .link1 {
+/* main p .link1 {
   margin-bottom: 100px;
-}
+} */
 
 .link2 {
   background-image: url("https://github.com/EmmaOY/test_6/blob/main/img_people.png?raw=true");
