@@ -52,10 +52,10 @@ header nav li a:hover {
   opacity: 0.7;
 }
 
-/* header nav li.activ {
-  color: #000;
+header nav li.activ {
+  color: rgb(40, 36, 31);
   font-weight: bold;
-} */
+}
 
 main p.profile1 {
   font-size: 23px;
