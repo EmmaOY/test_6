@@ -111,8 +111,8 @@ main p.link1 a:hover {
 }
 
 main p.link2 a {
-  background-color: rgba(249, 244, 222);
-  display: inline-block;
+ background-color: rgba(249, 244, 222);
+　display: inline-block;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
