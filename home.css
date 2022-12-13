@@ -78,14 +78,14 @@ main p.profile2 {
 
 main p.link1 a {
   background-color: rgba(249, 244, 222);
-  padding: 55px 100px;
-  margin-bottom: 200px;
-  display: inline-block;
+　display: inline-block;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   width: 300px;
   height: 150px;
+  padding: 55px 100px;
+  margin-bottom: 200px;
   background-image: url("https://github.com/EmmaOY/test_6/blob/main/ya.png?raw=true");
   background-repeat: no-repeat;
   background-size: 24px;
