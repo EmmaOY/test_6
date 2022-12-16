@@ -71,7 +71,7 @@ main p.profile2 {
   background-image: url("https://github.com/EmmaOY/test_6/blob/main/img_desk.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  /* background-position: left; */
   width: 1200px;
   height: 450px;
   padding-top: 150px;
