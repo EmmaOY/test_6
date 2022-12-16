@@ -54,6 +54,6 @@ p.homelink a {
 }
 
 .homelink a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   opacity: 0.7;
 }
