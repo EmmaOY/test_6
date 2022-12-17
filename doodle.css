@@ -1,5 +1,9 @@
 @import url("https://emmaoy.github.io/test_6/common.css");
 
+div.position {
+  position: relative;
+}
+
 p.bottompic {
   position: absolute;
   z-index: 1;
