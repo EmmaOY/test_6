@@ -7,11 +7,13 @@ div.position {
 p.bottompic {
   position: absolute;
   z-index: 1;
-  padding-top: 20px;
+  top: 20px;
+  right: auto;
+  left: auto;
 /*   padding-left: auto
   padding-right: auto */
-  margin-left: auto;
-  margin-right: auto;
+/*   margin-left: auto;
+  margin-right: auto; */
 }
 
 /* p .bottompic {
