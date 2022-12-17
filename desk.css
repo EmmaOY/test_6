@@ -1,11 +1,15 @@
 @import url("https://emmaoy.github.io/test_6/common.css");
 
+div.position {
+  position: relative;
+}
+
 p.bottompic {
   position: absolute;
   z-index: 1;
-  padding-top: 20px;
-  padding-left: 220px;
-}
+  top: 20px;
+  right: 0;
+  left: 0;
 
 h2 {
   font-size: 300px;
@@ -13,7 +17,7 @@ h2 {
   position: absolute;
   z-index: 2;
   padding-top: 480px;
-  padding-left: 970px;
+  padding-left: 770px;
 }
 
 p.note1 {
