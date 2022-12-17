@@ -75,6 +75,8 @@ main p.profile2 {
   width: 1200px;
   height: 450px;
   padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main p.link1 a {
@@ -109,6 +111,8 @@ main p.link1 a:hover {
   width: 1200px;
   height: 450px;
   padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main p.link2 a {
@@ -144,6 +148,8 @@ main p.link2 {
   height: 450px;
   padding-top: 150px;
   padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main p.link3 a {
@@ -173,9 +179,9 @@ main p.link3 {
 .link123 {
   text-align: left;
   margin-top: 250px;
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
-  background-color: #000;
 }
 
 footer {
