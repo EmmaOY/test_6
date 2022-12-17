@@ -8,8 +8,8 @@ p.bottompic {
   position: absolute;
   z-index: 1;
   top: 20px;
-  right: auto;
-  left: auto;
+  right: 0;
+  left: 0;
 /*   padding-left: auto
   padding-right: auto */
 /*   margin-left: auto;
