@@ -4,8 +4,10 @@ p.bottompic {
   position: absolute;
   z-index: 1;
   padding-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: auto
+  padding-right: auto
+/*   margin-left: auto;
+  margin-right: auto; */
 }
 
 /* p .bottompic {
