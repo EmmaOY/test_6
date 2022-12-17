@@ -8,6 +8,10 @@ p.bottompic {
   text-align: center;
 }
 
+p .bottompic {
+  text-align: center;
+}
+
 h2 {
   font-size: 300px;
   color: rgba(40, 36, 31, 0.795);
