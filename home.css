@@ -73,7 +73,7 @@ main p.profile2 {
   background-position: left;
   width: 1200px;
   height: 450px;
-  padding-top: 150px;
+  padding-top: 250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -109,7 +109,7 @@ main p.link1 a:hover {
   background-position: left;
   width: 1200px;
   height: 450px;
-  padding-top: 150px;
+  padding-top: 250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,7 +145,7 @@ main p.link2 {
   background-position: left;
   width: 1200px;
   height: 450px;
-  padding-top: 150px;
+  padding-top: 250px;
 /*   padding-bottom: 100px; */
   margin-left: auto;
   margin-right: auto;
