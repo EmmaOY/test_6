@@ -1,60 +1,4 @@
-body {
-  font-family: "Times New Roman", Times, serif;
-  /* font-family: "MS PMincho", "Hiragino Mincho Pro", serif; */
-  text-align: center;
-  color: rgb(40, 36, 31);
-  background-color: rgb(249, 244, 222);
-　background-position: center
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-header {
-  background-color: rgb(249, 244, 222);
-}
-
-header h1 {
-  font-size: 50px;
-  padding-top: 20px;
-  margin-bottom: 15px;
-  text-align: left;
-  padding-left: 45px;
-}
-
-.icon {
-  margin: 0 0 0 auto;
-  width: 50px;
-  height: 50px;
-}
-
-.icon a:hover {
-  opacity: 0.7;
-}
-
-header nav {
-  font-size: 16px;
-  text-align: left;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgb(40, 36, 31);
-}
-
-header nav li {
-  display: inline;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-header nav li a:hover {
-  text-decoration: underline;
-  opacity: 0.7;
-}
-
-header nav li a.active {
-  font-weight: bold;
-}
+@import url("https://emmaoy.github.io/test_6/common.css");
 
 main p.profile1 {
   font-size: 23px;
@@ -193,4 +137,70 @@ footer {
 footer p {
   color: #fff;
   padding-top: 15px;
+}
+
+/* レスポンシブ */
+@media (max-width: 575px) {
+  .link1 {
+    width: 90%;
+    height: 100px;
+  }
+  main p.link1 a {
+    /* background-color: aqua; */
+    width: 90px;
+    height: 15px;
+    display: block;
+    margin-top: -80px;
+    padding: 40px 90px;
+    font-size: 30px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 20px center;
+    background-image: none;
+  }
+
+  .link2 {
+    width: 90%;
+    height: 100px;
+  }
+  main p.link2 a {
+    /* background-color: aqua; */
+    width: 90px;
+    height: 15px;
+    display: block;
+    margin-top: -80px;
+    padding: 40px 90px;
+    font-size: 30px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 20px center;
+    background-image: none;
+  }
+
+  .link3 {
+    width: 90%;
+    height: 100px;
+  }
+  main p.link3 a {
+    /* background-color: aqua; */
+    width: 90px;
+    height: 15px;
+    display: block;
+    margin-top: -80px;
+    padding: 40px 95px;
+    font-size: 30px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 20px center;
+    background-image: none;
+  }
+
+  .link123 p {
+    display: block;
+    padding-bottom: 90px;
+    text-align: center;
+  }
 }
