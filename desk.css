@@ -129,7 +129,7 @@ p.homelink {
 p.homelink a {
   /* background-color: aqua; */
   padding: 20px 50px;
-  background-image: url(../img/ya.png);
+  background-image: url("https://github.com/EmmaOY/test_6/blob/main/ya.png?raw=true");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: right 20px center;
