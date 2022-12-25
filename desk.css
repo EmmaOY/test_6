@@ -1,15 +1,10 @@
 @import url("https://emmaoy.github.io/test_6/common.css");
 
-div.position {
-  position: relative;
-}
-
 p.bottompic {
   position: absolute;
   z-index: 1;
-  top: 20px;
-  right: 0;
-  left: 0;
+  padding-top: 20px;
+  padding-left: 220px;
 }
 
 h2 {
@@ -18,16 +13,17 @@ h2 {
   position: absolute;
   z-index: 2;
   padding-top: 480px;
-  padding-left: 830px;
+  padding-left: 970px;
 }
 
 p.note1 {
+  /* background-color: aquamarine; */
   width: 300px;
   height: 300px;
 }
 
 .setumei1 {
-  /* background-color: aqua; */
+  /* background-color: brown; */
   font-size: 25px;
   line-height: 40px;
   width: 750px;
@@ -37,11 +33,11 @@ p.note1 {
 }
 
 .tool1 {
+  /* background-color: violet; */
   display: flex;
   justify-content: center;
   padding-top: 900px;
-  padding-right: 100px;
-  margin-left: 150px;
+  margin: auto;
 }
 
 p .note2 {
@@ -55,12 +51,14 @@ p.note2 {
 }
 
 p.pen1 {
+  /* background-color: aqua; */
   width: 300px;
   height: 300px;
+  margin: auto;
 }
 
 .setumei2 {
-  /* background-color: aqua; */
+  /* background-color: brown; */
   font-size: 25px;
   line-height: 40px;
   width: 800px;
@@ -71,13 +69,16 @@ p.pen1 {
 }
 
 .tool2 {
+  /* background-color: violet; */
   display: flex;
   justify-content: center;
   padding-top: 200px;
   padding-left: 100px;
+  margin: auto;
 }
 
 p .pen2 {
+  /* background-color: blueviolet; */
   text-align: center;
   width: 600px;
   height: 600px;
@@ -106,7 +107,7 @@ p.iro1 {
   display: flex;
   justify-content: center;
   padding-top: 200px;
-  padding-left: 100px;
+  margin: auto;
 }
 
 p .iro2 {
@@ -137,4 +138,118 @@ p.homelink a {
 .homelink a:hover {
   text-decoration: underline;
   opacity: 0.7;
+}
+
+.homelink a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* レスポンシブ */
+@media (max-width: 575px) {
+  p.bottompic {
+    width: 98%;
+    padding-left: 10px;
+  }
+
+  h2 {
+    font-size: 100px;
+    width: 95%;
+    padding: 200px 0 0 1px;
+  }
+
+  .setumei1 {
+    /* background-color: brown; */
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+
+  p.note1 {
+    /* background-color: aquamarine; */
+    width: 250px;
+    height: 300px;
+    padding-top: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p.note2 {
+    /* background-color: blueviolet; */
+    width: 90%;
+    padding-left: 70px;
+  }
+
+  .tool1 {
+    /* background-color: violet; */
+    width: 97%;
+    margin-left: 10px;
+    padding-top: 500px;
+  }
+
+  .setumei3 {
+    /* background-color: brown; */
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+
+  p.iro1 {
+    /* background-color: aquamarine; */
+    width: 250px;
+    height: 300px;
+    padding-top: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p.iro2 {
+    /* background-color: blueviolet; */
+    width: 90%;
+    padding-left: 70px;
+  }
+
+  .tool3 {
+    /* background-color: violet; */
+    width: 97%;
+    margin-left: 10px;
+  }
+
+  .setumei2 {
+    /* background-color: brown; */
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 800px;
+    height: 400px;
+  }
+
+  p.pen1 {
+    /* background-color: aquamarine; */
+    width: 800px;
+    height: 400px;
+    padding-top: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p.pen2 {
+    /* background-color: blueviolet; */
+    width: 90%;
+    padding-left: 70px;
+  }
+
+  .tool2 {
+    /* background-color: violet; */
+    width: 97%;
+    margin-left: 10px;
+  }
 }
