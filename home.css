@@ -1,13 +1,9 @@
 @import url("https://emmaoy.github.io/test_6/common.css");
 
-main p.profile1 {
+main p.profile {
   font-size: 23px;
+  line-height: 32px;
   padding-top: 150px;
-}
-
-main p.profile2 {
-  font-size: 23px;
-  padding-top: 15px;
 }
 
 .link1 {
@@ -142,14 +138,10 @@ footer p {
 /* レスポンシブ */
 @media (max-width: 575px) {
 
-main p.profile1 {
+main p.profile {
   font-size: 18px;
   padding-top: 150px;
-}
-
-main p.profile2 {
-  font-size: 18px;
-  padding-top: 10px;
+  width: 98%;
 }
 
   .link1 {
