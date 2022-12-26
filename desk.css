@@ -136,17 +136,16 @@ p.homelink a {
 }
 
 .homelink a:hover {
-  text-decoration: underline;
-  opacity: 0.7;
-}
-
-.homelink a:hover {
   text-decoration: none;
   opacity: 0.7;
 }
 
 /* レスポンシブ */
 @media (max-width: 575px) {
+  h2 {
+    display: none;
+  }
+
   p.bottompic {
     width: 98%;
     padding-left: 10px;
@@ -228,17 +227,17 @@ p.homelink a {
     text-align: left;
     margin-top: auto;
     margin-bottom: auto;
-    width: 800px;
-    height: 400px;
+    width: 100%;
+  }
+
+  p .pen1 {
+    /* background-color: aquamarine; */
+    width: 250px;
+    height: 300px;
   }
 
   p.pen1 {
-    /* background-color: aquamarine; */
-    width: 800px;
-    height: 400px;
-    padding-top: 150px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 200px;
   }
 
   p.pen2 {
@@ -249,6 +248,7 @@ p.homelink a {
 
   .tool2 {
     /* background-color: violet; */
+    padding-left: 10px;
     width: 97%;
     margin-left: 10px;
   }
