@@ -83,6 +83,11 @@ footer p {
 　header h1 {
   padding-left: 10px;
 }
+  
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
 
   header nav li {
     display: block;
