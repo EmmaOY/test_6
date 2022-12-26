@@ -79,6 +79,11 @@ footer p {
 
 /* レスポンシブ */
 @media (max-width: 575px) {
+
+　header h1 {
+  padding-left: 10px;
+}
+
   header nav li {
     display: block;
     text-align: center;
