@@ -60,6 +60,10 @@ p.homelink a {
 
 /* レスポンシブ */
 @media (max-width: 575px) {
+  h2 {
+    display: none;
+  }
+  
   p.bottompic {
     width: 98%;
     height: 300px;
