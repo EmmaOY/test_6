@@ -252,4 +252,8 @@ p.homelink a {
     width: 97%;
     margin-left: 10px;
   }
+  
+  p.homelink a {
+    background-image: none;
+  }
 }
