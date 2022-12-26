@@ -141,6 +141,17 @@ footer p {
 
 /* レスポンシブ */
 @media (max-width: 575px) {
+
+main p.profile1 {
+  font-size: 20px;
+  padding-top: 150px;
+}
+
+main p.profile2 {
+  font-size: 20px;
+  padding-top: 150px;
+}
+
   .link1 {
     width: 90%;
     height: 100px;
