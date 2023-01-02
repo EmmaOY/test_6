@@ -145,8 +145,13 @@ p.homelink a {
 
 /* レスポンシブ */
 @media (max-width: 575px) {
-  h2 {
+/*   h2 {
     display: none;
+  } */
+  
+  h2 {
+    font-size: 110px;
+    padding-top: 140px;
   }
 
   p.bottompic {
@@ -183,7 +188,7 @@ p.homelink a {
   .tool1 {
     /* background-color: violet; */
     width: 97%;
-    padding-top: 500px;
+    padding-top: 400px;
     margin-left: 10px;
   }
 
