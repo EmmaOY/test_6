@@ -213,3 +213,33 @@ main p.profile {
     text-align: center;
   }
 }
+
+/* レスポンシブ（ノートPC） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .link1 {
+    width: 95%;
+  }
+
+  .link2 {
+    width: 95%;
+  }
+
+  .link3 {
+    width: 95%;
+  }
+}
+
+/* レスポンシブ（タブレット） */
+@media (min-width: 576px) and (max-width: 991px) {
+  .link1 {
+    width: 95%;
+  }
+
+  .link2 {
+    width: 95%;
+  }
+
+  .link3 {
+    width: 95%;
+  }
+}
