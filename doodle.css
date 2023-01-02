@@ -102,6 +102,10 @@ p.homelink a {
     width: 97%;
   }
   
+  p.homelink {
+    font-size: 20px;
+  }
+  
   p.homelink a {
     background-image: none;
   }
