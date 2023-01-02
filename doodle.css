@@ -70,20 +70,19 @@ p.homelink a {
 
 /* レスポンシブ */
 @media (max-width: 575px) {
-  h2 {
+/*   h2 {
     display: none;
+  } */
+  
+  h2 {
+    font-size: 100px;
+    padding-top: 140px;
   }
   
   p.bottompic {
     width: 98%;
     height: 300px;
     padding: 20px 0 0 10px;
-  }
-
-  h2 {
-    font-size: 100px;
-    width: 95%;
-    padding: 200px 0 0 1px;
   }
 
   .container4 {
