@@ -176,7 +176,8 @@ p.homelink a {
   p.note2 {
     /* background-color: blueviolet; */
     width: 90%;
-    padding-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tool1 {
@@ -208,7 +209,8 @@ p.homelink a {
   p.pen2 {
     /* background-color: blueviolet; */
     width: 90%;
-    padding-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tool2 {
@@ -240,13 +242,18 @@ p.homelink a {
   p.iro2 {
     /* background-color: blueviolet; */
     width: 90%;
-    padding-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tool3 {
     /* background-color: violet; */
     width: 97%;
     margin-left: 10px;
+  }
+  
+  p.homelink {
+    font-size: 20px;
   }
 
   p.homelink a {
