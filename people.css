@@ -121,3 +121,32 @@ p.homelink a {
     background-image: none;
   }
 }
+
+/* レスポンシブ（タブレット） */
+@media (min-width: 576px) and (max-width: 991px) {
+  p.bottompic {
+    width: 98%;
+    padding-left: 10px;
+  }
+
+  h2 {
+    font-size: 220px;
+    padding-top: 300px;
+  }
+
+  p.homelink {
+    font-size: 30px;
+  }
+
+  p.homelink a {
+    background-image: none;
+  }
+
+  p.homelink {
+    font-size: 30px;
+  }
+
+  p.homelink a {
+    background-image: none;
+  }
+}
