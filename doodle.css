@@ -1,7 +1,5 @@
 @import url("https://emmaoy.github.io/test_6/common.css");
 
-@import url(common.css);
-
 p.bottompic {
   position: absolute;
   z-index: 1;
