@@ -109,3 +109,24 @@ p.homelink a {
     background-image: none;
   }
 }
+
+/* レスポンシブ（ノートPC） */
+@media (min-width: 992px) and (max-width: 1199px) {
+  p.bottompic {
+    width: 98%;
+    padding-left: 10px;
+  }
+
+  h2 {
+    font-size: 250px;
+    padding-top: 350px;
+  }
+
+  p.homelink {
+    font-size: 30px;
+  }
+
+  p.homelink a {
+    background-image: none;
+  }
+}
