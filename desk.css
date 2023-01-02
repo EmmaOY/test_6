@@ -384,3 +384,130 @@ p.homelink a {
     background-image: none;
   }
 }
+
+/* レスポンシブ（タブレット） */
+@media (min-width: 576px) and (max-width: 991px) {
+  p.bottompic {
+    width: 98%;
+    padding-left: 10px;
+  }
+
+  h2 {
+    font-size: 220px;
+    padding-top: 300px;
+  }
+
+  .setumei1 {
+    /* background-color: brown; */
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+
+  p.note1 {
+    /* background-color: aquamarine; */
+    width: 350px;
+    height: 400px;
+    padding-top: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p.note2 {
+    /* background-color: blueviolet; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tool1 {
+    /* background-color: violet; */
+    width: 97%;
+    padding-top: 700px;
+    margin-left: 10px;
+  }
+
+  .setumei2 {
+    /* background-color: brown; */
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+
+  p.pen1 {
+    /* background-color: aquamarine; */
+    width: 350px;
+    height: 400px;
+    padding-top: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p.pen2 {
+    /* background-color: blueviolet; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tool2 {
+    /* background-color: violet; */
+    padding-left: 10px;
+    width: 97%;
+    margin-left: 10px;
+  }
+
+  .setumei3 {
+    /* background-color: brown; */
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+
+  p.iro1 {
+    /* background-color: aquamarine; */
+    width: 350px;
+    height: 400px;
+    padding-top: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  p.iro2 {
+    /* background-color: blueviolet; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tool3 {
+    /* background-color: violet; */
+    width: 97%;
+    margin-left: 10px;
+  }
+
+  p.homelink {
+    font-size: 30px;
+  }
+
+  p.homelink a {
+    background-image: none;
+  }
+
+  p.homelink {
+    font-size: 30px;
+  }
+
+  p.homelink a {
+    background-image: none;
+  }
+}
