@@ -14,7 +14,7 @@ h2 {
   position: absolute;
   z-index: 2;
   padding-top: 480px;
-  padding-left: 830px;
+  right: 0;
 }
 
 .container1 {
