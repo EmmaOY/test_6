@@ -170,3 +170,22 @@ body.lb-disable-scrolling {
   filter: alpha(Opacity=100);
   opacity: 1;
 }
+
+/* レスポンシブ */
+@media (max-width: 575px) {
+  .lb-nav a.lb-prev {
+    float: unset;
+    background-image: none;
+  }
+
+  .lb-nav a.lb-next {
+    float: unset;
+    background-image: none;
+  }
+
+  .lb-next,
+  .lb-prev {
+    cursor: unset;
+    display: none;
+  }
+}
