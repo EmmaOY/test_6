@@ -19,7 +19,7 @@ main p.profile {
 }
 
 main p.link1 a {
-  background-color: rgba(249, 244, 222);
+  background-color: snow;
   padding: 55px 100px;
   margin-bottom: 200px;
 　display: inline-block;
@@ -55,7 +55,7 @@ main p.link1 a:hover {
 }
 
 main p.link2 a {
- background-color: rgba(249, 244, 222);
+ background-color: snow;
 　display: inline-block;
   font-size: 40px;
   line-height: 40px;
@@ -92,7 +92,7 @@ main p.link2 {
 }
 
 main p.link3 a {
-  background-color: rgba(249, 244, 222);
+  background-color: snow;
 　 display: inline-block;
   font-size: 40px;
   line-height: 40px;
