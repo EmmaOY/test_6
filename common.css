@@ -2,7 +2,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: rgb(40, 36, 31);
-  background-color: rgb(249, 238, 241);
+  background-color: snow;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: rgb(249, 244, 222);
+  background-color: snow;
 }
 
 header h1 {
